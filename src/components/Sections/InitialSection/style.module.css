@@ -1,0 +1,38 @@
+.initialSection {
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100dvw;
+    padding: 0 50px;
+    margin: 50px 0 0 0s;
+    border-bottom: 5px solid var(--whiteMain);
+}
+
+.initialText {
+    color: var(--text-color);
+    width: 50%;
+}
+
+.title{
+    font-size:5rem;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 2.5rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.initialImage {
+    img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+}
