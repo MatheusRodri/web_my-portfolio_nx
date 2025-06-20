@@ -1,0 +1,149 @@
+/* Base Styles */
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 5px solid var(--whiteMain);
+    background-color: var(--blueMain);
+    /* Exemplo de cor de fundo */
+    color: var(--whiteMain);
+    position: relative;
+    /* Para o posicionamento do menu em mobile */
+    z-index: 100;
+    /* Garante que o header esteja acima do menu */
+}
+
+.logoText {
+    color: var(--whiteMain);
+    font-size: 1.8rem;
+    /* Ajuste o tamanho conforme necessário */
+    margin: 0;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    /* Remover margem padrão da ul */
+    padding: 0;
+    /* Remover padding padrão da ul */
+}
+
+.navItem a {
+    text-decoration: none;
+    color: var(--whiteMain);
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navItem a:hover {
+    color: #ccc;
+}
+
+/* Hambúrguer Button */
+.hamburger {
+    display: none;
+    /* Escondido por padrão em telas maiores */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    z-index: 1001;
+    /* Fica acima do menu */
+}
+
+.bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--whiteMain);
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.bar:last-child {
+    margin-bottom: 0;
+}
+
+/* Animação do Hambúrguer para X */
+.hamburgerActive .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburgerActive .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburgerActive .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        /* Esconde o menu para a direita */
+        width: 70%;
+        /* Largura do menu em mobile */
+        max-width: 300px;
+        /* Limite máximo para o menu */
+        height: 100%;
+        background-color: var(--blueSecondary);
+        /* Cor de fundo do menu lateral */
+        padding-top: 80px;
+        /* Espaço para o cabeçalho fixo */
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+        transition: right 0.3s ease-in-out;
+        z-index: 1000;
+        display: flex;
+        /* Garante que os itens do menu sejam exibidos */
+        flex-direction: column;
+    }
+
+    .navActive {
+        right: 0;
+        /* Mostra o menu */
+    }
+
+    .navList {
+        flex-direction: column;
+        /* Itens do menu em coluna */
+        align-items: flex-start;
+        /* Alinha os itens à esquerda */
+        width: 100%;
+    }
+
+    .navItem {
+        width: 100%;
+        padding: 15px 20px;
+        /* Mais padding para itens em mobile */
+        border-bottom: 1px solid #555;
+        /* Linha divisória */
+    }
+
+    .navItem:last-child {
+        border-bottom: none;
+    }
+
+    .navItem a {
+        display: block;
+        /* Ocupa toda a largura do item */
+        font-size: 1.1rem;
+        /* Ajuste o tamanho da fonte */
+    }
+
+    .hamburger {
+        display: block;
+        /* Mostra o hambúrguer em telas menores */
+    }
+}
