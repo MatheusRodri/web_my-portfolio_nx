@@ -1,12 +1,11 @@
 .initialSection {
     display: flex;
-    height: 400px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: max-content;
     max-width: 100dvw;
-    padding: 0 50px;
-    margin: 50px 0 0 0s;
+    padding: 50px;
     border-bottom: 5px solid var(--whiteMain);
 }
 
