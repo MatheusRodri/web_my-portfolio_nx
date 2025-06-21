@@ -1,0 +1,25 @@
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+    border-bottom: 5px solid var(--whiteMain);
+}
+
+.aboutContent{
+    color: #fff;
+}
+
+.aboutTitle{
+    font-size: 2.5rem;
+}
+
+.aboutText{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: justify;
+}
