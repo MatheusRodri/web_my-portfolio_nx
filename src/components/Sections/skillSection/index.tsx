@@ -1,0 +1,17 @@
+import { Skill } from '@/components/skill';
+import style from './style.module.css';
+import data from '@/data/data.json';
+
+export default function SkillSection() {
+    return (
+        <section className={style.skillSection}>
+                <h2 className={style.skillTitle}>Skills</h2>
+
+                <div className={style.skillList}>
+                    {data.Skills_user.map((skill, index) => (
+                        <Skill key={index} name={skill.name} img={skill.img} />
+                    ))}
+                </div> 
+        </section>
+    )
+}

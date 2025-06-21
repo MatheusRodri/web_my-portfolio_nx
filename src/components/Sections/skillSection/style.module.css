@@ -1,0 +1,21 @@
+.skillSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+    border-bottom: 5px solid var(--whiteMain);
+}
+
+.skillTitle {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.skillList{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
