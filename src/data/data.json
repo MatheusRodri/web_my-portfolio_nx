@@ -1,0 +1,44 @@
+{
+    "name_user":"Matheus Rodrigues",
+    "tech_user":"Desenvolvedor Front-End",
+    "resume_user":"Olá, sou o Matheus, uma pessoa apaixonada por tecnologia e desenvolvimento no geral.",
+    "about_user":"Hello! I'm Matheus, a passionate software developer with a focus on creating innovative solutions. I have experience in various programming languages and frameworks, and I love tackling complex challenges. My goal is to build applications that not only meet user needs but also provide an exceptional user experience.",
+    "Skills_user":[
+        {
+            "name":"Python",
+            "img":"/assets/logo_python.png"
+        },
+        {
+            "name":"Sql",
+            "img":"/assets/logo_sql.png"
+        },
+        {
+            "name":"Excel",
+            "img":"/assets/logo_excel.png"
+        },
+        {
+            "name":"Power BI",
+            "img":"/assets/logo_powerbi.png"
+        },
+        {
+            "name":"HTML",
+            "img":"/assets/logo_html.png"
+        },
+        {
+            "name":"CSS",
+            "img":"/assets/logo_css.png"
+        },
+        {
+            "name": "JavaScript",
+            "img": "/assets/logo_javascript.png"
+        },
+        {
+            "name": "React",
+            "img": "/assets/logo_react.png"
+        },
+        {
+            "name": "Node.js",
+            "img": "/assets/logo_node.png"
+        }
+    ]
+}
