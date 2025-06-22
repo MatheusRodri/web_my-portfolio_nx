@@ -1,0 +1,23 @@
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding: 50px;
+    border-bottom: 5px solid var(--whiteMain);
+}
+
+.contactTitle {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.contactList {
+    list-style: none;
+    line-height: 40px;
+}
+.contactLink{
+    text-decoration: underline;
+    color: white;
+}
