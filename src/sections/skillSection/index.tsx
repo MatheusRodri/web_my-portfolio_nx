@@ -4,7 +4,7 @@ import data from '@/data/data.json';
 
 export default function SkillSection() {
     return (
-        <section className={style.skillSection}>
+        <section id='skills' className={style.skillSection}>
                 <h2 className={style.skillTitle}>Skills</h2>
 
                 <div className={style.skillList}>
