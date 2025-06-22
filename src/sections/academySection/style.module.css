@@ -1,0 +1,22 @@
+.academySection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding: 50px;
+    border-bottom: 5px solid var(--whiteMain);
+}
+
+.academyTitle {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.academyList{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
