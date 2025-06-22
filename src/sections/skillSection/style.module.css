@@ -19,3 +19,20 @@
     flex-wrap: wrap;
     margin-left: 10px;
 }
+
+@media (max-width: 900px) {
+
+    .skillSection {
+        padding: 20px;
+        height: auto;
+    }
+
+    .skillTitle {
+        font-size: 2rem;
+    }
+
+    .skillList {
+        margin-top: 20px;
+        flex-direction: row;
+    }
+}

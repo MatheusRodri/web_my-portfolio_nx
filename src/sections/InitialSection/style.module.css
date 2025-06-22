@@ -35,3 +35,16 @@
         border-radius: 50%;
     }
 }
+
+@media screen and (max-width:900px){
+    .initialSection{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .initialText {
+        width: 100%;
+        text-align: center;
+    }
+}

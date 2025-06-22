@@ -17,3 +17,10 @@
         color: aqua;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .experience {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -26,3 +26,11 @@
         margin-left: 20px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .project {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
