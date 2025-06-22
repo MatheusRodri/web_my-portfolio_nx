@@ -1,13 +1,21 @@
-import { AboutSection } from "@/components/Sections/aboutSection";
-import InitialSection from "@/components/Sections/InitialSection";
-import SkillSection from "@/components/Sections/skillSection";
+import { AboutSection } from "@/sections/aboutSection";
+import AcademicSection from "@/sections/academySection";
+import { ContactSection } from "@/sections/contactSection";
+import ExperienceSection from "@/sections/experienceSection";
+import InitialSection from "@/sections/InitialSection";
+import ProjectsSection from "@/sections/projectsSection";
+import SkillSection from "@/sections/skillSection";
 
 export default function Home() {
   return (
     <main>
       <InitialSection />
       <AboutSection />
-      <SkillSection/>
+      <SkillSection />
+      <ExperienceSection />
+      <AcademicSection/>
+      <ProjectsSection />
+      <ContactSection />
     </main>
   );
 }
