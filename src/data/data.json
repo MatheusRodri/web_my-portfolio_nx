@@ -40,5 +40,48 @@
             "name": "Node.js",
             "img": "/assets/logo_node.png"
         }
-    ]
+    ],
+    "experience_user":[
+        {
+            "company":"Santander Brasil",
+            "role":"Estagiário de Riscos",
+            "dt_inicio":"Julho/2023",
+            "dt_fim":"Presente",
+            "techs":"Python, SQL, SAS Guide Enterprise, Excel e Power BI",
+            "description": "Atuo com manipulação de dados, análise de riscos e desenvolvimento de soluções em Python e SQL. Minha experiência inclui a criação de dashboards em Power BI para visualização de dados e suporte à tomada de decisões estratégicas.   "
+        }
+    ],
+    "academic_user":[
+        {
+            "institution":"Centro Universitário Senac",
+            "course":"Sistemas de Informação",
+            "dt_inicio":"Agosto/2024",
+            "dt_fim":"Presente"
+        },
+        {
+            "institution": "Centro Universitário Senac",
+            "course": "Ciência da Computação",
+            "dt_inicio": "Agosto/2022",
+            "dt_fim": "Junho/2024"
+        },
+        {
+            "institution": "Anhembi Morumbi",
+            "course": "Ciência da Computação",
+            "dt_inicio": "Fevereiro/2021",
+            "dt_fim": "Junho/2022"
+        }
+    ],
+    "projects_user":[
+        {
+          "name":"Projeto 1",
+          "techs":"Python, SQL, SAS Guide Enterprise, Excel e Power BI",
+          "description":"uma descrição do projeto 1",
+          "link":"http://link-do-projeto-1.com"     
+        }
+    ],
+    "contact_user":{
+        "email":"matheus.rj25@hotmail.com",
+        "linkedin":"https://www.linkedin.com/in/matheus-rodrigues-mrj/",
+        "github":"https://github.com/MatheusRodri"
+    }
 }
