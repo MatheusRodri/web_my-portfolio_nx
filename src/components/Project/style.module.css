@@ -1,0 +1,28 @@
+.project {
+    background: var(--blueSecondary);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 15px;
+
+    p {
+        text-align: justify;
+    }
+
+    p>span {
+        font-weight: bold;
+        color: aqua;
+    }
+}
+
+.projectHeader{
+    display: flex;
+
+    a{
+        color: #fff;
+        margin-left: 20px;
+    }
+}
