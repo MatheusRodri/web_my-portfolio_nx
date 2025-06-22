@@ -29,6 +29,9 @@ export default function Header() {
                         <a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a>
                     </li>
                     <li className={styles.navItem}>
+                        <a href="#education" onClick={() => setMenuOpen(false)}>Education</a>
+                    </li>
+                    <li className={styles.navItem}>
                         <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
                     </li>
                     <li className={styles.navItem}>
