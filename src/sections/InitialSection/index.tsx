@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import style from './style.module.css';
-import imageProfile from '../../../../public/assets/Perfil.jpg'
+import imageProfile from '../../../public/assets/Perfil.jpg'
 
 export default function InitialSection() {
     return (
