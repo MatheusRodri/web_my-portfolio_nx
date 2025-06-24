@@ -17,6 +17,8 @@
 
 html{
   width: 100%;
-  background-color: var(--blueMain);
+  background: #10014D;
+    background: linear-gradient(180deg, rgba(16, 1, 77, 1) 0%, rgba(30, 0, 148, 1) 100%);
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }

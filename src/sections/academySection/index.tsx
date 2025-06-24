@@ -4,8 +4,8 @@ import { Academic } from '@/components/Academic';
 
 export default function AcademicSection() {
     return (
-        <section id='education' className={style.academySection}>
-                <h2 className={style.academyTitle}>Formação Acadêmica</h2>
+        <section id='education' className={`${style.academySection} reveal-on-scroll`}>
+            <h2 className={`${style.academyTitle} scroll-to-text`}>Formação Acadêmica</h2>
 
             <div className={style.academyList}>
                     {data.academic_user.map((academic, index) => (

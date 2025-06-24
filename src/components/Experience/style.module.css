@@ -18,9 +18,9 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .experience {
-        width: 100%;
+        width: 80%;
         margin-bottom: 20px;
     }
 }

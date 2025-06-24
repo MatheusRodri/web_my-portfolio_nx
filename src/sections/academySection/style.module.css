@@ -13,7 +13,7 @@
     color: #fff;
 }
 
-.academyList{
+.academyList {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -21,8 +21,20 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width:900px){
-    .academyList{
+@media screen and (max-width:950px) {
+
+    .academySection {
+        padding: 20px;
+        height: auto;
+    }
+
+    .academyTitle {
+        font-size: 2rem;
+    }
+
+    .academyList {
+        margin-top: 20px;
+        font-size: 1.2rem;
         flex-direction: column;
         align-items: center;
     }

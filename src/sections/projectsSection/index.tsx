@@ -5,7 +5,7 @@ import data from '@/data/data.json';
 
 export default function ProjectsSection() {
     return (
-        <section id='projects' className={style.projectSection}>
+        <section id='projects' className={`${style.projectSection} reveal-on-scroll`}>
                 <h2 className={style.projectTitle}>Projetos</h2>
 
             <div className={style.projectList}>

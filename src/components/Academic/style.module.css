@@ -1,4 +1,4 @@
-.experience {
+.academic {
     background: var(--blueSecondary);
     display: flex;
     flex-direction: column;
@@ -19,10 +19,14 @@
     }
 }
 
-@media screen and (max-width: 900px) {
-    .experience {
-        width: 100%;
-        margin-right: 0;
+@media screen and (max-width: 950px) {
+    .academic {
+        width: 50%;
         margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
+
 }

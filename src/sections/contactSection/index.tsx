@@ -4,8 +4,8 @@ import data from '@/data/data.json';
 
 export function ContactSection() {
     return (
-        <section id='contact' className={style.contactSection}>
-            <h2 className={style.contactTitle}>Contato</h2>
+        <section id='contact' className={`${style.contactSection} reveal-on-scroll`}>
+            <h2 className={`${style.contactTitle} scroll-to-text`} >Contato</h2>
             <ul className={style.contactList}>
                 <li className={style.contactItem}>
                     <Link href={`mailto:${data.contact_user.email}`} className={style.contactLink}>

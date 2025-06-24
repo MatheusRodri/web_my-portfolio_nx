@@ -4,8 +4,8 @@ import data from '@/data/data.json';
 
 export default function SkillSection() {
     return (
-        <section id='skills' className={style.skillSection}>
-                <h2 className={style.skillTitle}>Skills</h2>
+        <section id='skills' className={`${style.skillSection} reveal-on-scroll` }>
+            <h2 className={`${style.skillTitle} scroll-to-text` }>Skills</h2>
 
                 <div className={style.skillList}>
                     {data.Skills_user.map((skill, index) => (

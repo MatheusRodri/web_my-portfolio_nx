@@ -16,12 +16,12 @@
 .experienceList{
     margin-top: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-left: 10px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .experienceSection {
         padding: 20px;
         height: auto;
@@ -34,5 +34,7 @@
     .experienceList {
         margin-top: 20px;
         font-size: 1.2rem;
+        flex-direction: column;
+        align-items: center;
     }
 }
