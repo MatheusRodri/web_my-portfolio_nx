@@ -5,7 +5,7 @@ import { Experience } from '@/components/Experience';
 export default function ExperienceSection() {
     return (
         <section id='experience' className={style.experienceSection}>
-                <h2 className={style.experienceTitle}>Experiencia</h2>
+            <h2 className={style.experienceTitle}>Experiência</h2>
 
             <div className={style.experienceList}>
                     {data.experience_user.map((experience, index) => (

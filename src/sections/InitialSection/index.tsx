@@ -1,15 +1,16 @@
 import Image from 'next/image';
 import style from './style.module.css';
 import imageProfile from '../../../public/assets/Perfil.jpg'
+import data from '@/data/data.json';
 
 export default function InitialSection() {
     return (
         <section className={style.initialSection}>
             <div className={style.initialText}>
-                <h1 className={style.title}>Matheus Rodrigues</h1>
-                <p className={style.subtitle}>Desenvolvedor Front-End</p>
+                <h1 className={style.title}>{data.name_user}</h1>
+                <p className={style.subtitle}>{data.tech_user}</p>
                 <p className={style.description}>
-                    Olá, sou o Matheus, uma pessoa apaixonada por tecnologia e desenvolvimento no geral.
+                    {data.resume_user}
                 </p>
             </div>
             <div className={style.initialImage}>
