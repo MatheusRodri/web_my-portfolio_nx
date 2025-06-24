@@ -17,25 +17,25 @@ export default function Header() {
             <nav className={`${styles.nav} ${menuOpen ? styles.navActive : ''}`}>
                 <ul className={styles.navList}>
                     <li className={styles.navItem}>
-                        <a href="/" onClick={() => setMenuOpen(false)}>Home</a>
+                        <a href="/" onClick={() => setMenuOpen(false)}>Inicio</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a href="#about" onClick={() => setMenuOpen(false)}>About Me</a>
+                        <a href="#about" onClick={() => setMenuOpen(false)}>Sobre mim</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
+                        <a href="#skills" onClick={() => setMenuOpen(false)}>Habilidades</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a>
+                        <a href="#experience" onClick={() => setMenuOpen(false)}>Experiência</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a href="#education" onClick={() => setMenuOpen(false)}>Education</a>
+                        <a href="#education" onClick={() => setMenuOpen(false)}>Formação</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+                        <a href="#projects" onClick={() => setMenuOpen(false)}>Projetos</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+                        <a href="#contact" onClick={() => setMenuOpen(false)}>Contato</a>
                     </li>
                 </ul>
             </nav>
