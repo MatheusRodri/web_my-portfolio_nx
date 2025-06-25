@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { AboutSection } from "@/sections/aboutSection";
 import AcademicSection from "@/sections/academySection";
 import { ContactSection } from "@/sections/contactSection";
@@ -5,7 +6,7 @@ import ExperienceSection from "@/sections/experienceSection";
 import InitialSection from "@/sections/InitialSection";
 import ProjectsSection from "@/sections/projectsSection";
 import SkillSection from "@/sections/skillSection";
-import { useEffect } from 'react';
+import styles from '@/styles/Home.module.css';
 
 export default function Home() {
 
@@ -50,7 +51,7 @@ export default function Home() {
 
 
   return (
-    <main>
+    <main className={styles.main}>
       <InitialSection />
       <AboutSection />
       <SkillSection />

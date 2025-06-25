@@ -8,7 +8,7 @@
     border-bottom: 5px solid var(--whiteMain);
     background-color: var(--blueSecondary);
     color: var(--whiteMain);
-    position: relative;
+    position: fixed;
     z-index: 100;
 }
 
