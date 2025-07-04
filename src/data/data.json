@@ -73,11 +73,18 @@
     ],
     "projects_user":[
         {
-          "name":"Projeto 1",
-          "techs":"Python, SQL, SAS Guide Enterprise, Excel e Power BI",
-          "description":"uma descrição do projeto 1",
-          "link":"http://link-do-projeto-1.com"     
+          "name":"Dashboard Uber",
+          "techs":"Python, SQL, Pandas e Power BI",
+          "description":"O projeto se trata de um tratamento de dados simples e a construção de dashboard simples para mostrar algumas informações simples.",
+          "link":"https://github.com/MatheusRodri/data_uber-user-data_py"     
+        },
+        {
+          "name":"Dashboard Uber",
+          "techs":"Python, SQL, Pandas e Power BI",
+          "description":"O projeto se trata de um tratamento de dados simples e a construção de dashboard simples para mostrar algumas informações simples.",
+          "link":"https://github.com/MatheusRodri/data_uber-user-data_py"     
         }
+        
     ],
     "contact_user":{
         "email":"matheus.rj25@hotmail.com",
