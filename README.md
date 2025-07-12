@@ -12,6 +12,7 @@ Este é um portfólio pessoal que demonstra minhas habilidades e projetos desenv
 
 ## Tecnologias utilizadas
 - Front end
+    - TypeScript
     - Next.js
 
 ## Como executar o projeto
