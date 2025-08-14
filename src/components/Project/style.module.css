@@ -7,7 +7,7 @@
     padding: 20px;
     line-height: 1.5;
     border-radius: 15px;
-
+   
     p {
         text-align: justify;
     }
@@ -16,6 +16,10 @@
         font-weight: bold;
         color: aqua;
     }
+}
+
+.project:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .projectHeader{
