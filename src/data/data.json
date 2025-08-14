@@ -1,8 +1,12 @@
 {
     "name_user":"Matheus Rodrigues",
+
     "tech_user":"Analista de dados e Desenvolvedor Full Stack",
+    
     "resume_user":"Olá, sou o Matheus, uma pessoa apaixonada por tecnologia e desenvolvimento no geral.",
-    "about_user":"Descobri o mundo da tecnologia em 2018, na qual tive contato com SCRATCH, CSharp, MySQL, manutenção de computadores e redes, logo ao finalizar o ensino médio, ingressei na universidade Anhembi Morumbi, no curso de Ciência da computação, pouco mais de 1 ano, resolvi, buscar mais desafios, então fiz a transferência para o Centro Universitário Senac, onde tive um contato bem forte com a matemática que todos falavam, pouco tempo depois, verifiquei que o que estava vendo não estava alinhado com o que estava trabalhando no meu estágio no Banco Santander Brasil, então fiz a última troca de curso, para sistema da informação. Sou uma pessoa que estou sempre aprendendo coisas novas, nos últimos meses venho estudando dados e programação, apaixonado por automobilismo",
+
+    "about_user":"Descobri o mundo da tecnologia em 2018, na qual tive contato com SCRATCH, CSharp, MySQL, manutenção de computadores e redes, logo ao finalizar o ensino médio, ingressei na universidade Anhembi Morumbi, no curso de Ciência da computação, pouco mais de 1 ano, resolvi, buscar mais desafios, então fiz a transferência para o Centro Universitário Senac, onde tive um contato bem forte com a matemática que todos falavam (Cálculo 1, Cálculo 2...) pouco tempo depois, verifiquei que, o que estava vendo não estava alinhado com o que estava trabalhando no meu estágio no Banco Santander Brasil, então fiz a última troca de curso, para sistema da informação. Uma coisa que sempre gostei de fazer, é aprender e ensinar as pessoas no meu tempo livre, se eu tiver muito atarefado, eu tento arranjar um tempinho nem que seja 1 minuto para ensinar alguém, alinhado a isso resolvi criar algumas páginas no Medium, Reddit, X e Instagram para transmitir o meu conhecimento mesmo que nesse momento seja apenas um pouco.",
+
     "Skills_user":[
         {
             "name":"Python",
@@ -46,9 +50,9 @@
             "company":"Santander Brasil",
             "role":"Estagiário de Riscos",
             "dt_inicio":"Julho/2023",
-            "dt_fim":"Presente",
-            "techs":"Python, SQL, SAS Guide Enterprise, Excel e Power BI",
-            "description": "Aqui vai o meu resumo "
+            "dt_fim":"Julho/2025",
+            "techs":"Python, SQL, SAS Guide Enterprise, Databricks, Excel e Power BI",
+            "description": "Durante 2 anos, trabalhei com análise de dados e desenvolvimento de relatórios utilizando as ferramentas mencionadas."
         }
     ],
     "academic_user":[
@@ -73,16 +77,22 @@
     ],
     "projects_user":[
         {
-          "name":"Dashboard Uber",
-          "techs":"Python, SQL, Pandas e Power BI",
-          "description":"O projeto se trata de um tratamento de dados simples e a construção de dashboard simples para mostrar algumas informações simples.",
-          "link":"https://github.com/MatheusRodri/data_uber-user-data_py"     
+          "name":"Fin Life",
+          "techs":"TypeScript, React Native, NextJs, NodeJs e MySql",
+          "description":"O projeto se trata de projeto pessoal que sempre quis desenvolver, a ideia é as pessoas poderem gerenciar suas finanças de forma simples e prática(adicionando despesas, receitas e visualizando relatórios)",
+          "link":"https://github.com/MatheusRodri/FinLife"
         },
         {
           "name":"Dashboard Uber",
           "techs":"Python, SQL, Pandas e Power BI",
-          "description":"O projeto se trata de um tratamento de dados simples e a construção de dashboard simples para mostrar algumas informações simples.",
+          "description":"O projeto se trata de um tratamento de dados simples da minha conta Uber (A origem ela foi ocultada, mas você pode replicar com suas informações) e a construção de dashboard simples trazendo algumas informações como quantidade de corridas, valor total e muitas outras informações.",
           "link":"https://github.com/MatheusRodri/data_uber-user-data_py"     
+        },
+        {
+          "name":"Dashboard Spotify",
+          "techs":"Python, SQL, Databricks,Pandas e Power BI",
+          "description":"O projeto se trata de um tratamento de dados simples da minha conta Spotify (A origem ela foi ocultada, mas você pode replicar com suas informações) e a construção de dashboard simples trazendo algumas informações como tempo total de reprodução etc...",
+          "link":"https://github.com/MatheusRodri/data_spotify-user_py"     
         }
         
     ],
