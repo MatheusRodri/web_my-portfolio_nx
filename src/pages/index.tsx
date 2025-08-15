@@ -7,6 +7,7 @@ import InitialSection from "@/sections/InitialSection";
 import ProjectsSection from "@/sections/projectsSection";
 import SkillSection from "@/sections/skillSection";
 import styles from '@/styles/Home.module.css';
+import FooterSection from '@/sections/footerSection';
 
 export default function Home() {
 
@@ -58,7 +59,8 @@ export default function Home() {
       <ExperienceSection />
       <AcademicSection/>
       <ProjectsSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
+      <FooterSection/>
     </main>
   );
 }
