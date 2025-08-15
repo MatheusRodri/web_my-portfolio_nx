@@ -26,3 +26,13 @@
 .footerLink{
     text-decoration: none;
 }
+
+@media screen and (max-width:950px){
+    .footerContainer{
+        height: 100%;
+        padding: 20px 0;
+    }
+    .footerList{
+        flex-direction: column;
+    }
+}
