@@ -13,10 +13,12 @@ export function Project({ name, description, techs,link }: ProjectProps) {
         <div className={style.project}>
             <div className={style.projectHeader}>
                 <h3 className={style.projectName}>{name}</h3> 
+                <div className={style.spaceline}></div>
                 <Link href={link} className={style.experienceRole}>Repositório</Link>
             </div>
-
+            <div className={style.spaceline}></div>
             <p className={style.techs}><span>Techs:</span> {techs}</p>
+            <div className={style.spaceline}></div>
             <p className={style.experienceDescription}> <span>Descrição:</span> {description}</p>
 
         </div>

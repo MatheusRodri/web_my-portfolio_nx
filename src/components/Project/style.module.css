@@ -2,7 +2,8 @@
     background: var(--blueSecondary);
     display: flex;
     flex-direction: column;
-    width: 50%;
+    margin: 0 25px 25px 0;
+    width: 30%;
     color: white;
     padding: 20px;
     line-height: 1.5;
@@ -18,10 +19,6 @@
     }
 }
 
-.project:not(:last-child) {
-    margin-bottom: 20px;
-}
-
 .projectHeader{
     display: flex;
 
@@ -29,6 +26,10 @@
         color: #fff;
         margin-left: 20px;
     }
+}
+
+.spaceline{
+    height: 10px;
 }
 
 @media screen and (max-width: 900px) {
