@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  portfolio:
+    image: meu-portfolio-dev
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      # Sincroniza seu código local com o contêiner para live reload
+      - .:/app
+      - /app/node_modules
+      - /app/.next
