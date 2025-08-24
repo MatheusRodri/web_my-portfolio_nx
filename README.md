@@ -6,12 +6,6 @@ Este é um portfólio pessoal que demonstra minhas habilidades e projetos desenv
 
 ## Requisitos
 
-### Opção 1 - Docker:
-- Docker
-- Visual Studio Code ou similar
-- Navegador Web
-
-### Opção 2 - Local:
 - Visual Studio Code ou similar
 - Node.js
 - NPM ou Yarn
@@ -25,12 +19,6 @@ Este é um portfólio pessoal que demonstra minhas habilidades e projetos desenv
 
 ## Como executar o projeto
 
-### Opção 1 - Docker
-- Clone ou faça o download do repositório.
-- Navegue até a pasta do projeto no terminal.
-- Execute o comando `docker-compose up --build` para construir e iniciar os contêineres.
-
-### Opção 2 - Local
 - Clone ou faça o download do repositório.
 - Navegue até a pasta do projeto no terminal.
 - Execute o comando `npm install` ou `yarn install` para instalar as dependências.
